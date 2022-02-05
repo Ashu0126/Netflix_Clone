@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: rgb(0, 0, 0);
+}
+
+section {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1568829383225-V7V7Z56K389NGR5OSVOB/image-asset.jpeg);
+}
+
+#header {
+  display: flex;
+  align-items: center;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+#header a img {
+  width: 90px;
+  height: 40px;
+  object-fit: cover;
+  margin: 20px 10px 20px 30px;
+}
+
+main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 130px 40px 0px 40px;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 35px;
+}
+
+main p {
+  font-size: 15px;
+  margin: 25px 10px 0px 10px;
+  max-width: 730px;
+}
+
+main button {
+  margin-top: 15px;
+  width: max-content;
+  padding: 8px 20px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 140px;
+}
+
+main button:hover {
+  background-color: #e50914;
+  color: white;
+}
+
+section .video {
+  display: none;
+}
+
+section .video.active {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+section .video img {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+  margin: 60px 60px 60px 0px;
+  transform: rotate(45deg);
+}
+
+section .video img:hover {
+  opacity: 0.6;
+}
+
+section .video video {
+  width: 80%;
+  height: 520px;
+  margin: 0px 5% 40px 10%;
+}
+
+#genre {
+  color: white;
+  margin: 60px 40px;
+}
+
+#genre h1 {
+  font-size: 17px;
+}
+
+#genre div {
+  display: flex;
+  margin: 5px 0px 40px 0px;
+  align-items: center;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+#genre div img {
+  width: 200px;
+  height: 100px;
+  margin: 0px 15px 0px 0px;
+}
+
+#genre div img:hover {
+  width: 230px;
+  height: 130px;
+  transition: 0.5s;
+}
+
+footer {
+  width: 100%;
+}
+
+footer #footer {
+  margin: 50px 10% 4% 40px;
+  color: #757575;
+}
+
+footer #footer p a {
+  color: #757575;
+  text-decoration: none;
+}
+
+footer #footer p a:hover {
+  text-decoration: underline;
+}
+
+footer #footer div {
+  margin: 30px 0px 70px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer #footer div ul {
+  font-size: 13px;
+  margin-right: 55px;
+}
+
+footer #footer div .media {
+  margin-left: -23px;
+}
+
+@media (max-width: 410px) {
+  footer #footer div .media {
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+}
+
+footer #footer div ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  list-style: none;
+}
+
+footer #footer div ul li:hover {
+  text-decoration: underline;
+}
+
+footer #footer .netflix {
+  font-size: 14px;
+}

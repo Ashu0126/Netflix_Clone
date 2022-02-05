@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.showcase {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/eb482c64-e879-4e88-9ddc-d839cb7d1232/d03a05fb-39a4-4594-b16c-ddc39f35f5bd/IN-en-20220131-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  border-bottom: 8px solid #222;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.603);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 110px;
+  height: 35px;
+  object-fit: cover;
+  margin: 26px 45px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  background-color: #e50914;
+  padding: 7px 17px;
+  border-radius: 3px;
+  margin-right: 45px;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.603);
+  display: grid;
+  text-align: center;
+  justify-items: center;
+}
+
+main #info {
+  max-width: 550px;
+  display: grid;
+  justify-items: center;
+  margin-top: 123px;
+}
+
+main h1 {
+  font-size: 50px;
+  line-height: 1.1em;
+}
+
+main h4 {
+  font-weight: 100;
+  font-size: 26px;
+  margin-top: 16px;
+}
+
+main p {
+  margin-top: 16px;
+  font-size: 23px;
+  width: 450px;
+}
+
+main #input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+main #input input {
+  height: 57px;
+  width: 495px;
+  border: none;
+}
+
+main #input button {
+  width: 130px;
+  border-radius: 2px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 15px;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  margin-bottom: 150px;
+}
+
+@media (max-width: 740px) {
+  main #info p {
+    font-size: 18px;
+  }
+
+  main #input input {
+    height: 46px;
+  }
+}
+
+main #input button:hover {
+  background-color: red;
+}
+
+#devices div {
+  border-bottom: 8px solid #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#devices div h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 72px;
+}
+
+#devices div h2 p {
+  margin: 14px 45px 0px 45px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#devices div img {
+  max-width: 500px;
+  margin: 0px 10px 70px 10px;
+}
+
+#devices .mobile {
+  flex-direction: column;
+}
+
+.questions {
+  border-bottom: 8px solid #222;
+}
+
+.questions h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 71px 45px 29px 45px;
+}
+
+.questions div {
+  background-color: #303030;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  margin: 0px 11% 9px 11%;
+}
+
+.questions div p {
+  margin-left: 24px;
+}
+
+.questions .ans {
+  display: none;
+}
+
+.questions .ans.active {
+  background-color: #303030;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -8px 11% 9px 11%;
+}
+
+.questions .ans p {
+  margin: 24px;
+}
+
+.questions div img {
+  filter: invert(1);
+  width: 24px;
+  margin-right: 20px;
+}
+
+.questions div img.active {
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+
+.questions #input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.questions #input h6 {
+  margin-top: 16px;
+  font-size: 23px;
+  width: 450px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.questions #input span {
+  margin-top: 10px;
+  display: grid;
+  justify-items: center;
+}
+.questions #input input {
+  height: 57px;
+  width: 495px;
+  border: none;
+}
+
+.questions #input button {
+  width: 130px;
+  border-radius: 2px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 15px;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  margin-bottom: 72px;
+}
+
+@media (max-width: 740px) {
+  .questions #input h6 {
+    font-size: 18px;
+  }
+
+  .questions #input input {
+    height: 46px;
+  }
+}
+
+.questions #input button:hover {
+  background-color: red;
+}
+
+footer {
+  width: 100%;
+}
+
+footer #footer {
+  margin: 60px 8% 4% 8%;
+  color: #757575;
+}
+
+footer #footer p a {
+  color: #757575;
+  text-decoration: none;
+}
+
+footer #footer p a:hover {
+  text-decoration: underline;
+}
+
+footer #footer div {
+  margin: 30px 0px 50px 0px;
+  display: flex;
+  max-width: 800px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer #footer div ul {
+  font-size: 13px;
+  margin-right: 30px;
+}
+
+footer #footer div ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+footer #footer div ul li:hover {
+  text-decoration: underline;
+}
+
+footer #footer .netflix {
+  font-size: 15px;
+}
