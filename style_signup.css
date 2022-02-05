@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: white;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8f3e38a9-1c2c-4818-99b5-2d9bdff9ad1d/96d29058-fe9b-4f8e-aa49-4c7af385934b/IN-en-20220124-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+
+#main {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#main #header a img {
+  width: 170px;
+  margin: 15px 3%;
+  height: 60px;
+  object-fit: cover;
+}
+
+#main #form {
+  display: grid;
+  justify-content: center;
+}
+
+#main #form #mainform {
+  display: grid;
+  background: rgba(0, 0, 0, 0.74);
+  border-radius: 3px;
+}
+
+#main #form #mainform h1 {
+  margin: 60px 70px 25px;
+  font-size: 32px;
+}
+
+#main #form #mainform .input {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+#main #form #mainform .input input {
+  width: 312px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+#main #form #mainform #signin {
+  margin: 20px 70px;
+  width: 312px;
+  padding: 13px 0px;
+  background-color: #e50914;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+
+#main #form #mainform #check {
+  display: flex;
+  color: rgba(184, 184, 184, 0.904);
+  margin-left: 70px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 312px;
+}
+
+#main #form #mainform #check div {
+  display: flex;
+}
+
+#main #form #mainform #check #checkb {
+  width: 15px;
+  height: 15px;
+  border: none;
+  margin-right: 3px;
+}
+
+#main #form #mainform #check p {
+  font-size: 13px;
+}
+
+#main #form #mainform .facebook {
+  margin-left: 70px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #737373;
+  margin-bottom: 15px;
+}
+
+#main #form #mainform .facebook #facebook {
+  display: flex;
+}
+
+#main #form #mainform .facebook #facebook img {
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 1px;
+}
+
+#main #form #mainform .facebook p {
+  margin-top: 2px;
+}
+
+#main #form #mainform #signup {
+  margin-left: 70px;
+  display: flex;
+  font-size: 17px;
+  color: #757575;
+}
+
+#main #form #mainform #signup a {
+  color: white;
+  text-decoration: none;
+}
+
+#main #form #mainform #signup a:hover {
+  text-decoration: underline;
+}
+
+#main #form #mainform .learnmore {
+  font-size: 13px;
+  margin: 15px 0px 110px 70px;
+  width: 312px;
+}
+
+#main #form #mainform .learnmore p {
+  color: #757575;
+}
+
+#main #form #mainform .learnmore p a {
+  text-decoration: none;
+  color: rgb(35, 75, 252);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 90px;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 30px;
+  display: grid;
+}
+
+#footer p {
+  margin-left: 10%;
+  color: #757575;
+  font-size: 18px;
+}
+
+#footer p a {
+  text-decoration: none;
+  color: #757575;
+}
+
+#footer p a:hover {
+  text-decoration: underline;
+}
+
+#footer div {
+  margin: 30px 10% 67px 10%;
+  display: flex;
+}
+
+#footer div ul {
+  list-style: none;
+  font-size: 14px;
+  color: #757575;
+  width: 147px;
+  margin-right: 8%;
+}
+
+#footer div ul li {
+  margin-right: 10px;
+  margin-bottom: 17px;
+}
+
+#footer div ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
